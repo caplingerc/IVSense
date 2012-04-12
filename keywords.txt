@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map For IVSense
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+IVSense	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getCurrent KEYWORD2
+getVoltage KEYWORD2
+readData KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+_ipin KEYWORD2
+_vpin KEYWORD2
+voltage KEYWORD2
+current KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
