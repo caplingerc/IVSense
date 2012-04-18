@@ -11,7 +11,9 @@ IVSense::IVSense(int i_pin, int v_pin, float v_scale)
 {
   _ipin = i_pin;
   _vpin = v_pin;
-  _vscale = v_scale;
+  _vscale = v_scale; // v_scale is used if sensing values larger than 5V on Arduino pins
+                     //  Use v_scale = 2 for a voltage divider with R1 == R2
+                     // Use v_scale = 1 if a divider is not being used
 }
 
 void IVSense::readData()
